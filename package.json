@@ -1,0 +1,41 @@
+{
+  "name": "ts-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_ENV=development webpack && webpack serve --open",
+    "build:dev": "set NODE_ENV=development && webpack ",
+    "build:prod": "set NODE_ENV=production && webpack ",
+    "test": "mocha \"test/**/*.spec.js\"",
+    "test:report": "mocha \"test/**/*.spec.js\" --reporter mochawesome --reporter-options showHooks=always"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/createjs": "0.0.29",
+    "@types/stats.js": "^0.17.0",
+    "chai": "^4.3.4",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.2.0",
+    "css-minimizer-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^5.3.2",
+    "mocha": "^9.1.1",
+    "mochawesome": "^6.2.2",
+    "sinon": "^11.1.2",
+    "sinon-chai": "^3.7.0",
+    "style-loader": "^3.2.1",
+    "terser-webpack-plugin": "^5.2.4",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.4.2",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.0"
+  },
+  "dependencies": {
+    "fairygui-createjs": "0.0.5",
+    "stats.js": "^0.17.0"
+  }
+}

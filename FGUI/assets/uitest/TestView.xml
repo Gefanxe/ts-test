@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,600" bgColorEnabled="true" bgColor="#0066cc">
+  <displayList>
+    <image id="n1_ehz7" name="n1" src="ehz71" fileName="bg_start1.jpg" xy="85,87" size="632,421"/>
+    <graph id="n0_vusk" name="rect1" xy="391,219" size="100,100" type="rect"/>
+  </displayList>
+</component>
