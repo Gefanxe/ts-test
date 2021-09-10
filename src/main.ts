@@ -79,7 +79,7 @@ class Main {
     resLoaded() {
         this.loader.destroy();
         fgui.UIPackage.addPackage("uitest");
-        let ins = fgui.UIPackage.createObject("uitest", "main") as fgui.GComponent;
+        let ins = fgui.UIPackage.createObject("uitest", "TestView") as fgui.GComponent;
         // console.log(fgui.UIPackage.addPackage("uitest"));
         ins.setSize(fgui.GRoot.inst.width, fgui.GRoot.inst.height);
         ins.addRelation(fgui.GRoot.inst, fgui.RelationType.Size);

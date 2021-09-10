@@ -50,3 +50,5 @@ FGUI/.objs
 FGUI/.objs/
 .DS_Store
 package-lock.json
+FGUI/.objs/workspace.json
+FGUI/.objs/workspace.json
