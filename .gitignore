@@ -46,6 +46,6 @@ dist/public/libs/createjs.js.LICENSE.txt
 dist/public/libs/createjs.min.js
 dist/public/libs/createjs.min.js.LICENSE.txt
 dist/public/libs/ScaleBitmap.js
-FGUI/.objs/
+FGUI/.objs
 .DS_Store
 package-lock.json
