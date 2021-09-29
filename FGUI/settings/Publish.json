@@ -8,13 +8,13 @@
   "jpegQuality": 80,
   "compressPNG": false,
   "codeGeneration": {
-    "allowGenCode": false,
-    "codePath": "",
+    "allowGenCode": true,
+    "codePath": "/Users/andersen/Dev/createjs/ts-test/src",
     "classNamePrefix": "UI_",
     "memberNamePrefix": "m_",
     "packageName": "",
     "ignoreNoname": false,
-    "getMemberByName": false,
+    "getMemberByName": true,
     "codeType": ""
   },
   "includeHighResolution": 0,

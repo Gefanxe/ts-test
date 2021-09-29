@@ -1,11 +1,10 @@
 import * as fgui from 'fairygui-createjs'
-import * as Stats from "stats.js";
-import { LoadingView } from './LoadingView';
-// import { WindowA } from './WindowA';
-// import { WindowB } from './WindowB';
-// import { WindowWait } from './WindowWait';
+import * as Stats from "stats.js";              // JavaScript性能監視器
+import { LoadingView } from './LoadingView';    // Loading 畫面
 
 class Main {
+
+    // 公開屬性成員
     stats: Stats;
     loader: fgui.AssetLoader;
     manifest: Array<{ [key: string]: string }> = [];
@@ -13,12 +12,16 @@ class Main {
     stage: createjs.Stage;
     contentlayer: fgui.GComponent;
     loadingView: LoadingView;
+
+    // 建構
     constructor(canvas: HTMLCanvasElement, manifest: { [key: string]: string; }[]) {
         this.canvas = canvas;
         this.manifest = manifest;
         this.stage = new createjs.Stage(canvas);
         this.init();
     }
+
+    // 公開成員函式 ====================
 
     init() {
         this.initStats();
