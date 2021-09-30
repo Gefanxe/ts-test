@@ -9,11 +9,11 @@
   "compressPNG": false,
   "codeGeneration": {
     "allowGenCode": true,
-    "codePath": "/Users/andersen/Dev/createjs/ts-test/src",
-    "classNamePrefix": "UI_",
-    "memberNamePrefix": "m_",
+    "codePath": "../src/ui",
+    "classNamePrefix": "",
+    "memberNamePrefix": "",
     "packageName": "",
-    "ignoreNoname": false,
+    "ignoreNoname": true,
     "getMemberByName": true,
     "codeType": ""
   },

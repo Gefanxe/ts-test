@@ -2,7 +2,7 @@
 <packageDescription id="izuzqu2r">
   <resources>
     <component id="yonu0" name="TestView.xml" path="/" exported="true"/>
-    <image id="ehz71" name="bg_start1.jpg" path="/"/>
+    <image id="ehz71" name="bg_start1.jpg" path="/assets/texture/"/>
   </resources>
   <publish name=""/>
 </packageDescription>
