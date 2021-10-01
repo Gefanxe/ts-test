@@ -8,6 +8,7 @@ https://github.com/krapnikkk/FairyGUI-createjs
 工具軟體:
 - FairyGUI 2021.3.1 社群版
 - Node.js 14.17.3
+- WebPack 5
 
 程式語言:
 - TypeScript
