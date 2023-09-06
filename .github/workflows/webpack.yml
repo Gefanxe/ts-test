@@ -10,7 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      MY_SECRET   : ${{secrets.commit_secret}}
+      MY_SECRET   : ${{secrets.TS_TEST_ACTION}}
       USER_NAME   : Gefanxe
       USER_EMAIL  : actfire@gmail.com
       PUBLISH_DIR : ./dist
@@ -37,7 +37,7 @@ jobs:
         git config --local user.name $USER_NAME
         git config --local user.email $USER_EMAIL
         git status
-        git remote add origin git@github.com:Gefanxe/ts-test.git
+        git remote add origin https://$MY_SECRET@github.com/$GITHUB_REPOSITORY.git
         git checkout -b gh-pages
         git add .
         git commit -m "deploy to Github pages"
